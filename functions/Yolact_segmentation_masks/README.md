@@ -1,3 +1,18 @@
+# YOLACT generation of masks for query images
+This folder contains a script to generate masks used in D-InLoc++. It is based on an example from YOLACT (See [Installation](https://github.com/dbolya/yolact)). This script generates masks, where 0 is unknown object or backgrounds and any higher number is an object (mapping of objects to classes is then found in objects2classes.txt). 
+
+
+Example how to run:
+
+        python3 create_masks.py --score_threshold=0.05 --trained_model=data/yolact_base_54_800000.pth --images=/home/Documents/dataset/query_all:data/eval_results --output_txt=data/eval_results/objects2class.txt
+
+
+
+
+# -----------------------------------------------------------------------------------
+# YOLACT README
+# -----------------------------------------------------------------------------------
+
 # **Y**ou **O**nly **L**ook **A**t **C**oefficien**T**s
 ```
     ██╗   ██╗ ██████╗ ██╗      █████╗  ██████╗████████╗
