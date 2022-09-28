@@ -1,3 +1,9 @@
+# DInLoc++ demo
+
+The implementation is based on InLoc (<https://github.com/HajimeTaira/InLoc_demo>).
+
+The installation instructions can be found bellow.
+
 # InLoc demo
 
 This toolkit provides scalable indoor visual localization (InLoc) demo on InLoc dataset. 
